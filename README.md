@@ -25,14 +25,12 @@ Steps performed:
 **Input Example:**
 "John enjoys playing football while Mary loves reading books in the library."
 
-markdown
-Copy code
+
 
 **Expected Output:**
 ['enjoy', 'play', 'football', 'love', 'read', 'book', 'library']
 
-yaml
-Copy code
+
 
 ---
 
@@ -43,8 +41,7 @@ Copy code
 **Input Example:**
 "Chris met Alex at Apple headquarters in California. He told him about the new iPhone launch."
 
-markdown
-Copy code
+
 
 **Expected Output:**
 Named Entities:
@@ -56,8 +53,7 @@ iPhone → PRODUCT
 
 Warning: Possible pronoun ambiguity detected!
 
-yaml
-Copy code
+
 
 ---
 
@@ -68,8 +64,7 @@ Copy code
 py -3.11 -m venv spacyenv
 spacyenv\Scripts\activate
 2️⃣ Install Dependencies
-bash
-Copy code
+
 pip install --upgrade pip setuptools wheel
 pip install spacy
 python -m spacy download en_core_web_sm
@@ -84,8 +79,7 @@ Q2_ner_ambiguity.py
 
 Then execute:
 
-bash
-Copy code
+
 python Q1_preprocessing.py
 python Q2_ner_ambiguity.py
 🧩 Dependencies
@@ -99,10 +93,8 @@ en_core_web_sm language model
 
 📄 Output
 Both scripts print results to the console.
-You can redirect output to files if needed:
 
-bash
-Copy code
+
 python Q1_preprocessing.py > output_q1.txt
 python Q2_ner_ambiguity.py > output_q2.txt
 👨‍💻 Author

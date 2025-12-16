@@ -1,7 +1,6 @@
-# HW4 - NLP Processing Tasks
+#  NLP Processing Tasks
 
-**Student Name:** Nandu Panakanti  
-**Roll No:** 700770346  
+**Name:** Nandu Panakanti   
 
 ---
 

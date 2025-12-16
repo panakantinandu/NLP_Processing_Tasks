@@ -98,6 +98,5 @@ python Q1_preprocessing.py > output_q1.txt
 python Q2_ner_ambiguity.py > output_q2.txt
 👨‍💻 Author
 Nandu Panakanti
-Roll No: 700770346
 Department of Computer Science
 University of Central Missouri
